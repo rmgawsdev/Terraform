@@ -29,9 +29,6 @@ variable "sg_desctiption" {
     default = "Allow port number 22 for SSH access"
 }
 
-variable "from_port" {
-    default = 22
-}
 
 variable "from_port" {
     default = 22
@@ -44,7 +41,7 @@ variable "to_port" {
 }
 
 variable "protocol" {
-    default = tcp
+    default = "tcp"
 
 }
 
