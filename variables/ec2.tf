@@ -34,5 +34,4 @@ resource "aws_instance" "terraform-instance" {
     Name = "terraform"
   }
 
-  tags = var.tags
 }
